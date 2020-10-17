@@ -5,9 +5,9 @@ void main()
   int i,j, k;
   clrscr();
 
-  for(i = 0; i < 24; i++);
+  for(i = 0; i < 24; i++)
   {
-     for(j = i; j >= 0; j--);
+     for(j = 24; j >= i; j--)
      {
 	printf(" ");
      }
@@ -15,6 +15,5 @@ void main()
        printf("*");
      printf("\n");
   }
-
   getch();
 }
